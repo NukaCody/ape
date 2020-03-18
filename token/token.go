@@ -27,7 +27,7 @@ const (
 	LT = "<"
 	GT = ">"
 
-	EQ = "=="
+	EQ     = "=="
 	NOT_EQ = "!="
 
 	// Delimiters

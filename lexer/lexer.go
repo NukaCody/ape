@@ -1,6 +1,6 @@
 package lexer
 
-import "github.com/codypenta/oasis/ape/token"
+import "github.com/codypenta/ape/token"
 
 type Lexer struct {
 	input        string
@@ -120,7 +120,7 @@ func (l *Lexer) skipWhitespace() {
 	}
 }
 
-func(l *Lexer) peekChar() byte {
+func (l *Lexer) peekChar() byte {
 	if l.readPosition >= len(l.input) {
 		return 0
 	} else {

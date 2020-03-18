@@ -3,7 +3,7 @@ package lexer
 import (
 	"testing"
 
-	"github.com/codypenta/oasis/ape/token"
+	"github.com/codypenta/ape/token"
 )
 
 func TestNextToken(t *testing.T) {
